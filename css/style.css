@@ -1,0 +1,56 @@
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+ul{
+    padding-left: 0px;;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardPokemon :hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+    z-index: 2;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.hover-none:hover{
+    transform: none;
+    transition: none;
+    box-shadow: none;
+}
+th{
+    padding: 0.5rem;
+}
+td{
+    text-align: center;
+}
+.onixBanner{
+    width: 100%;
+}
+.wallpaper{
+    width: 100%;
+    margin: 20px;
+
+}
+
+
+@media all and (max-witdh:991px){
+    .cardPokemon :hover{
+        transform: scale(1.06);
+        transition: 0.1s;
+        z-index: 2;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    }
+    
+    .hover-none:hover{
+        transform: none;
+        transition: none;
+        box-shadow: none;
+    }
+}
